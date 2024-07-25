@@ -1,0 +1,11 @@
+{
+  "apps": [{
+    "name": "transport-strategy-javlonbek",
+    "script": "dist/server/index.js",
+    "instances": 3,
+    "exec_mode": "cluster",
+    "watch": false,
+    "max_memory_restart": "2G",
+    "env": "./.env"
+  }]
+}

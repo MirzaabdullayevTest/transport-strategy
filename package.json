@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "pm2": "^5.2.2",
+    "ws": "^8.10.0"
+  },
+  "name": "ws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^18.11.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -p ./",
+    "server": "node ./dist/index.js",
+    "client": "node ./dist/client/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
